@@ -1,0 +1,196 @@
+body
+ /* елемент який стилізується  */
+{
+    font-family: 'Montserrat', sans-serif;
+    /* CSS - вставляємо інформацію з сайту https://fonts.google.com після вибраного шрифту щодо вибраного шрифту */
+    background: #FFFFFF;
+    /* background: - колір тла */
+}
+.wrapper 
+/* .- стиль який стилізується */
+{
+    display: flex;
+    /* flexbox інструмент для надання відповідних стилів, display: flex - спосіб відображення, в даному випадку дві колонки, де головний розділ - main завжди перший */
+    flex-direction: row-reverse;
+    /* flex-direction - керунок відображення, де row - відображення в стовбчик, а row-reverse - в стовбчик в зворотньому порядку*/
+    width: 1200px;   
+    /* висота блоку <div> */
+    justify-content: center;
+    /* justify-content: спосіб центрування контенту в блоці */
+    margin: 0 auto;
+    /* margin: відступ блоку від інших блоків  */
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    /* box-shadow: надає тінь по контуру блока */
+}
+
+aside {
+    width: 373px;
+    /* висота */
+    background: #1E2939; 
+    
+}
+
+.cv-photo {
+    margin: 40px 0 0 0;
+}
+
+.header-secondary {
+    color:#FFFFFF;
+    /* background: - колір елементу */
+}
+
+.contact-links {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.list-sekondary {
+    color: #FB6D3A;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0;
+    padding-left: 0;
+    /* padding: відступ контенту в середині блоку від країв блоку  */
+    list-style-position: inside;
+    /* list-style-position: стиль списку, тобто де має бути розміщено значник списку, inside - в середині */
+}
+
+.list-secondary-item {
+    color:#FFFFFF;
+    font-weight: 400;
+   
+}
+
+.contact-blok {
+    margin-top: 51px;
+    margin-left: 40px;
+}
+
+.tech-skills-blok {
+    margin-top: 47px;
+    margin-left: 40px;
+}
+
+.soft-skills-blok {
+    margin-top: 44px;
+    margin-left: 40px;
+}
+
+main {
+    padding: 88px 102px 88px 102px;
+   
+}
+
+.main-deskription {
+    width: 400px;
+    
+}
+
+.job-tytle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+.deskription {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-bottom: 40px;
+}
+
+.projects {
+    width: 485px;
+    margin-bottom: 51px;
+}
+
+.list-primery {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.list-primery-iton {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    text-decoration: none;
+    text-decoration: none;
+    /* text-decoration: - як має бути удекорований текст - тобто підкреслення, закреслення та ін., в даному випадку  - без декорування, underline - підкреслення*/
+}
+
+.heder-primary {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+}
+.job-name {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 11px;
+}
+
+.hightlight {
+    color: #FB6D3A;
+    margin-bottom: 8px;
+}
+
+.job-date {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    
+}
+
+.job-list {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;  
+    color: #595959;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.education-name {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 12px;
+    margin-top: 43px;
+}
+
+.education-place {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 11px;
+}
+
+.education-job {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 12px;
+}
