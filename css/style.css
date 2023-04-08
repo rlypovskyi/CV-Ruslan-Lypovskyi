@@ -758,9 +758,34 @@ list-style-type: none;
 }
 
 .product {
-  position: relative;
+  position:relative;
   overflow: hidden;
+  
+   
 }
+
+
+.product-list {
+  
+  overflow: hidden;
+  transition: 1s; /* Время эффекта */
+   
+}
+.product-list:hover,
+.product-list:focus {
+  background: var(--pressed-state-color);
+  box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1), 0px 4px 3px rgba(0, 0, 0, 0.08),
+    0px 4px 4px rgba(0, 0, 0, 0.12);
+  border: none;
+
+ transform: scale(1.7); 
+ position:relative;
+align-content: center;
+
+}
+
+
+
 
 .product-overlay {
   position: absolute;
@@ -917,7 +942,7 @@ main {
 
 .job-tytle {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 17px;
     color: #FB6D3A;
 }
@@ -1044,7 +1069,7 @@ body { font-family: sans-serif; }
   margin: 40px 0;
   position: relative;
   width: 210px;
-  height: 140px;
+  height: 160px;
   margin: 40px auto;
   perspective: 1000px;
 }
