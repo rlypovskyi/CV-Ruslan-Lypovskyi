@@ -140,7 +140,17 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .address-item:hover,
-.address-item:focus {
+.address-item:focus,
+.contact-name:hover,
+.contact-name:focus,
+.projects:hover,
+.projects:focus,
+.previous-button:hover,
+.previous-button:focus,
+.next-button:hover,
+.next-button:focus
+
+ {
   color: var(--pressed-state-color);
   list-style-type: none;
 
@@ -778,7 +788,7 @@ list-style-type: none;
     0px 4px 4px rgba(0, 0, 0, 0.12);
   border: none;
 
- transform: scale(1.7); 
+ transform: scale(1.5); 
  position:relative;
 align-content: center;
 
@@ -886,12 +896,14 @@ aside {
     /* background: - колір елементу */
 }
 
-.contact-links {
+.contact-links,
+.contact-name {
     color:#FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
+    transition: 250ms;
 }
 
 .bold {
