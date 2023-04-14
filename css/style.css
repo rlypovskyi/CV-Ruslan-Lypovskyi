@@ -1107,7 +1107,6 @@ body { font-family: sans-serif; }
   font-weight: bold;
   color: white;
   text-align: center;
-  justify-content: center;
 }
 
 .carousel__cell:nth-child(9n+1) { background: hsla(  0, 100%, 50%, 0.8); }
